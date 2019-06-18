@@ -5,7 +5,7 @@ public enum Product {
     SNIKERS(5000),
     TSHIRT(3000),
     TROUSERS(4000),
-    HATS(2500),
+    HAT(2500),
     SUNGLASSES(8900);
 
     int price;
@@ -27,7 +27,7 @@ public enum Product {
                 product = TROUSERS;
                 break;
             case 3:
-                product = HATS;
+                product = HAT;
                 break;
             case 4:
                 product = SUNGLASSES;
